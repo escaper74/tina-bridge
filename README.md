@@ -1,12 +1,14 @@
 # TINA Bridge
 
-**Let Codex read your TINA circuit, edit it, and run the simulation.**
+**An MCP interface for reading, editing and simulating TINA-TI circuits.**
 
-TINA Bridge connects your AI assistant to TINA-TI on Windows. Tell it what you want to change or measure, and it can work on the schematic, run analyses, and read back the results. Your circuit stays a `.TSC` file that you can open and continue editing in TINA.
+TINA Bridge gives AI clients such as Codex a set of tools for working with TINA-TI on Windows. The AI understands your request and calls the tools; the bridge reads and edits the circuit, starts analyses and retrieves results. TINA performs the circuit simulation.
+
+It includes a local MCP server and a Codex plugin. Your circuit stays a `.TSC` file that you can open and continue editing in TINA.
 
 [中文](README.zh-CN.md) · [Download](https://github.com/escaper74/tina-bridge/releases/latest) · [Installation](plugins/tina-bridge/README.md)
 
-## What can I ask it to do?
+## Using it with Codex
 
 > Open this TSC file and explain how the output and feedback loop are connected.
 

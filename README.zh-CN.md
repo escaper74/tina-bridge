@@ -1,14 +1,16 @@
 # TINA Bridge
 
-**让 AI 帮你读 TINA 电路、改器件和接线、跑仿真、分析结果。**
+**为 AI 提供读取、编辑和仿真 TINA 电路的接口。**
 
-TINA Bridge 把 Codex 接到你电脑上的 TINA-TI。装好后，直接告诉 AI 想改什么、想测什么，它就能操作电路并取回仿真数据。修改后保存的仍是 `.TSC` 工程，你可以在 TINA 里继续打开和编辑。
+TINA Bridge 把 TINA-TI 的读图、改图、启动仿真和读取结果等操作，做成 Codex 等 AI 客户端可以调用的工具。你告诉 AI 想做什么，AI 负责理解任务和调用工具，插件负责与 TINA 交互，电路求解由 TINA 完成。
+
+项目包含一个在 Windows 本机运行的 MCP 服务和配套的 Codex 插件。修改后保存的仍是 `.TSC` 工程，你可以在 TINA 里继续打开和编辑。
 
 [English](README.md) · [下载](https://github.com/escaper74/tina-bridge/releases/latest) · [安装说明](plugins/tina-bridge/README.md)
 
 ## 可以怎么用
 
-你可以直接这样说：
+接入 Codex 后，你可以直接这样说：
 
 > 打开这个 TSC 文件，帮我看看输出端和反馈回路是怎么接的。
 

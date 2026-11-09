@@ -1,6 +1,6 @@
 # TINA Bridge 0.2.2
 
-Use Codex to read a TINA circuit, edit components and connections, run simulations, and analyze the results.
+TINA Bridge provides an MCP interface between AI clients and TINA-TI. Codex calls its tools to read and edit circuits, start analyses and retrieve results. TINA performs the circuit simulation.
 
 ## What you can do
 

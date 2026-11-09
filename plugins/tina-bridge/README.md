@@ -1,6 +1,6 @@
 # Install TINA Bridge
 
-Connect Codex to your TINA-TI installation so it can read circuits, edit schematics, run simulations and analyze the results.
+TINA Bridge provides MCP tools for AI clients such as Codex to read circuits, edit schematics, start simulations and retrieve results from TINA-TI. The AI calls the tools, the bridge operates TINA, and TINA solves the circuit.
 
 You'll need Windows, TINA-TI and Python 3.11 or newer. The bridge was developed with the Simplified Chinese edition of TINA-TI 9.3. Get the simulator from [Texas Instruments](https://www.ti.com/tool/TINA-TI).
 
