@@ -1,0 +1,286 @@
+<schematic>
+  <circuit>
+    <component position="368,288" mirrored="0" orientation="0" typeid="2" type="地" id="T_037A4C8020070125022416">
+      <image>
+        <label text="" position="368,288" textroot="" orientation="0" color="4278222976" />
+      </image>
+    </component>
+    <component position="304,232" mirrored="0" orientation="0" typeid="9" type="电阻器" id="T_0379E9B820070125022416">
+      <parameter idx="0" value="3.57k">
+        <detail type="Tolerance parameters">
+          <parameter idx="0" value="5" />
+          <parameter idx="1" value="Gaussian" />
+        </detail>
+        <detail type="Parameter stepping">
+          <parameter idx="0" value="0" />
+          <parameter idx="1" value="2.86k" />
+          <parameter idx="2" value="4.28k" />
+          <parameter idx="3" value="3" />
+          <parameter idx="4" value="Linear" />
+        </detail>
+        <detail type="Optimization object">
+          <parameter idx="0" value="0" />
+          <parameter idx="1" value="2.86k" />
+          <parameter idx="2" value="4.28k" />
+        </detail>
+      </parameter>
+      <parameter idx="1" value="1" />
+      <parameter idx="2" value="相对" />
+      <parameter idx="3" value="0" />
+      <parameter idx="4" value="0" />
+      <parameter idx="5" value="0" />
+      <parameter idx="6" value="0" />
+      <parameter idx="7" value="100" />
+      <parameter idx="8" value="无" />
+      <image>
+        <label text="R2 3.57k" position="312,212" textroot="R2" orientation="0" color="4278222976" />
+      </image>
+    </component>
+    <component position="432,240" mirrored="0" orientation="0" typeid="67" type="电池" id="T_0379FEE020070125022416">
+      <parameter idx="0" value="5" />
+      <parameter idx="1" value="0" />
+      <parameter idx="2" value="无" />
+      <parameter idx="3" value="无" />
+      <image>
+        <label text="V1 5" position="444,248" textroot="V1" orientation="0" color="4278222976" />
+      </image>
+    </component>
+    <component position="552,216" mirrored="0" orientation="0" typeid="4" type="电压指针" id="T_0379FA9820070125022416">
+      <parameter idx="0" value="输出" />
+      <parameter idx="1" value="No">
+        <detail type="Yes">
+          <parameter value="Value" />
+          <parameter value="0" />
+          <parameter value="5" />
+        </detail>
+      </parameter>
+      <image>
+        <label text="Vout " position="548,196" textroot="Vout" orientation="0" color="4286578816" />
+      </image>
+    </component>
+    <component position="192,248" mirrored="0" orientation="90" typeid="16" type="电压发生器" id="T_0379F66420070125022416">
+      <parameter idx="0" value="2.5" />
+      <parameter idx="1" value="方波">
+        <detail type="方波">
+          <parameter idx="0" value="500m" />
+          <parameter idx="1" value="1MEG" />
+          <parameter idx="2" value="100p" />
+        </detail>
+      </parameter>
+      <parameter idx="2" value="0" />
+      <parameter idx="3" value="输入" />
+      <parameter idx="4" value="无" />
+      <image>
+        <label text="Vin 2.5" position="204,278" textroot="Vin" orientation="90" color="4278222976" />
+      </image>
+    </component>
+    <component position="408,320" mirrored="0" orientation="0" typeid="10" type="电容器" id="T_0379E5B020070125022416">
+      <parameter idx="0" value="27p">
+        <detail type="Tolerance parameters">
+          <parameter idx="0" value="5" />
+          <parameter idx="1" value="Gaussian" />
+        </detail>
+        <detail type="Parameter stepping">
+          <parameter idx="0" value="0" />
+          <parameter idx="1" value="21.6p" />
+          <parameter idx="2" value="32.4p" />
+          <parameter idx="3" value="3" />
+          <parameter idx="4" value="Linear" />
+        </detail>
+        <detail type="Optimization object">
+          <parameter idx="0" value="0" />
+          <parameter idx="1" value="21.6p" />
+          <parameter idx="2" value="32.4p" />
+        </detail>
+      </parameter>
+      <parameter idx="1" value="无限" />
+      <parameter idx="2" value="Value">
+        <detail type="Value">
+          <parameter value="0" />
+        </detail>
+      </parameter>
+      <parameter idx="3" value="相对" />
+      <parameter idx="4" value="0" />
+      <parameter idx="5" value="0" />
+      <parameter idx="6" value="0" />
+      <parameter idx="7" value="100" />
+      <parameter idx="8" value="1" />
+      <parameter idx="9" value="无" />
+      <image>
+        <label text="C1 27p" position="416,296" textroot="C1" orientation="0" color="4278222976" />
+      </image>
+    </component>
+    <component position="288,96" mirrored="0" orientation="0" typeid="11" type="电感器" id="T_05D98F3C20040918152453">
+      <parameter idx="0" value="50u">
+        <detail type="Tolerance parameters">
+          <parameter idx="0" value="5" />
+          <parameter idx="1" value="Gaussian" />
+        </detail>
+        <detail type="Parameter stepping">
+          <parameter idx="0" value="0" />
+          <parameter idx="1" value="40u" />
+          <parameter idx="2" value="60u" />
+          <parameter idx="3" value="3" />
+          <parameter idx="4" value="Linear" />
+        </detail>
+        <detail type="Optimization object">
+          <parameter idx="0" value="0" />
+          <parameter idx="1" value="40u" />
+          <parameter idx="2" value="60u" />
+        </detail>
+      </parameter>
+      <parameter idx="1" value="10m" />
+      <parameter idx="2" value="Value">
+        <detail type="Value">
+          <parameter value="1.72" />
+        </detail>
+      </parameter>
+      <parameter idx="3" value="相对" />
+      <parameter idx="4" value="0" />
+      <parameter idx="5" value="0" />
+      <parameter idx="6" value="0" />
+      <parameter idx="7" value="100" />
+      <parameter idx="8" value="10" />
+      <parameter idx="9" value="无" />
+      <image>
+        <label text="Lf 50uH" position="296,76" textroot="L1" orientation="0" color="4278222976" />
+      </image>
+    </component>
+  </circuit>
+  <analysis modes="Single mode|Temperature stepping|Parameter stepping|Worst Case|Monte Carlo" mode="Single mode">
+    <mode type="Single mode" />
+    <mode type="Temperature stepping">
+      <parameter idx="0" value="20" />
+      <parameter idx="1" value="40" />
+      <parameter idx="2" value="3" />
+    </mode>
+    <mode type="Parameter stepping">
+      <parameter idx="0" value="Combinational stepping" />
+    </mode>
+    <mode type="Worst Case">
+      <parameter idx="0" value="Stochastic" />
+      <parameter idx="1" value="4" />
+      <parameter idx="2" value="1" />
+    </mode>
+    <mode type="Monte Carlo">
+      <parameter idx="0" value="68.27" />
+      <parameter idx="1" value="4" />
+      <parameter idx="2" value="1" />
+    </mode>
+    <transient>
+      <parameter idx="0" value="0" />
+      <parameter idx="1" value="2u" />
+      <parameter idx="2" value="Calculate operating point" />
+      <parameter idx="3" value="1" />
+      <parameter idx="4" value="0" />
+    </transient>
+    <digital>
+      <parameter idx="0" value="1u" />
+    </digital>
+    <ac>
+      <parameter idx="0" value="100k" />
+      <parameter idx="1" value="1G" />
+      <parameter idx="2" value="100" />
+      <parameter idx="3" value="Logarithmic" />
+    </ac>
+    <dc>
+      <parameter idx="0" value="0" />
+      <parameter idx="1" value="5" />
+      <parameter idx="2" value="100" />
+      <parameter idx="3" value="Vin" />
+      <parameter idx="4" value="0" />
+    </dc>
+    <temperature>
+      <parameter idx="0" value="0" />
+      <parameter idx="1" value="100" />
+      <parameter idx="2" value="100" />
+    </temperature>
+    <noise>
+      <parameter idx="0" value="1" />
+      <parameter idx="1" value="1MEG" />
+      <parameter idx="2" value="100" />
+      <parameter idx="3" value="1" />
+    </noise>
+    <network>
+      <parameter idx="0" value="1MEG" />
+      <parameter idx="1" value="1G" />
+      <parameter idx="2" value="100" />
+      <parameter idx="3" value="Logarithmic" />
+      <parameter idx="4" value="S" />
+    </network>
+    <fourierthd>
+      <parameter idx="0" value="0" />
+      <parameter idx="1" value="1MEG" />
+      <parameter idx="2" value="4096" />
+      <parameter idx="3" value="Vout" />
+    </fourierthd>
+    <fourierspectrum>
+      <parameter idx="0" value="0" />
+      <parameter idx="1" value="2u" />
+      <parameter idx="2" value="0" />
+      <parameter idx="3" value="1.02G" />
+      <parameter idx="4" value="4096" />
+      <parameter idx="5" value="Uniform" />
+      <parameter idx="6" value="Spectral density" />
+    </fourierspectrum>
+    <dcoptimization>
+      <parameter idx="0" value="Simple search">
+        <detail type="Simple search">
+          <parameter idx="0" value="Linear" />
+        </detail>
+        <detail type="Pattern search" />
+      </parameter>
+      <parameter idx="1" value="100" />
+      <parameter idx="2" value="1u" />
+      <parameter idx="3" value="5" />
+    </dcoptimization>
+    <interactive>
+      <parameter idx="0" value="1u" />
+      <parameter idx="1" value="1" />
+    </interactive>
+    <analparams>
+      <parameter idx="0" value="27" />
+      <parameter idx="1" value="1u" />
+      <parameter idx="2" value="1p" />
+      <parameter idx="3" value="1u" />
+      <parameter idx="4" value="1m" />
+      <parameter idx="5" value="1p" />
+      <parameter idx="6" value="0" />
+      <parameter idx="7" value="1m" />
+      <parameter idx="8" value="100f" />
+      <parameter idx="9" value="No" />
+      <parameter idx="10" value="No" />
+      <parameter idx="11" value="100" />
+      <parameter idx="12" value="40" />
+      <parameter idx="13" value="1n" />
+      <parameter idx="14" value="1" />
+      <parameter idx="15" value="1m" />
+      <parameter idx="16" value="1" />
+      <parameter idx="17" value="100m" />
+      <parameter idx="18" value="50" />
+      <parameter idx="19" value="No" />
+      <parameter idx="20" value="No" />
+      <parameter idx="21" value="20" />
+      <parameter idx="22" value="200m" />
+      <parameter idx="23" value="20m" />
+      <parameter idx="24" value="5" />
+      <parameter idx="25" value="0" />
+      <parameter idx="26" value="No" />
+      <parameter idx="27" value="7" />
+      <parameter idx="28" value="500m" />
+      <parameter idx="29" value="10f" />
+      <parameter idx="30" value="10G" />
+      <parameter idx="31" value="1.0E-30" />
+      <parameter idx="32" value="10" />
+      <parameter idx="33" value="100" />
+      <parameter idx="34" value="1.0E-20" />
+      <parameter idx="35" value="1u" />
+      <parameter idx="36" value="Yes" />
+      <parameter idx="37" value="0" />
+      <parameter idx="38" value="0" />
+      <parameter idx="39" value="1000000" />
+      <parameter idx="40" value="1" />
+      <parameter idx="41" value="500m" />
+    </analparams>
+  </analysis>
+</schematic>

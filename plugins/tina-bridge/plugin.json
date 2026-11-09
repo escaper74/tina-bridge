@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tina-bridge",
+  "version": "0.2.1",
+  "description": "Read, edit and simulate native TINA-TI circuits through a local Windows MCP bridge.",
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "TINA Bridge",
+        "shortDescription": "Local TINA-TI circuit editing and simulation",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Read my TINA circuit and explain its connections."
+        ]
+      }
+    }
+  }
+}

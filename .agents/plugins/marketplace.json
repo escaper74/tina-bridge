@@ -1,0 +1,20 @@
+{
+  "name": "tina-bridge",
+  "interface": {
+    "displayName": "TINA Bridge"
+  },
+  "plugins": [
+    {
+      "name": "tina-bridge",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tina-bridge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

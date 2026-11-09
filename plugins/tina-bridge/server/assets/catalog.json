@@ -1,0 +1,214 @@
+{
+  "source": "TINA-TI 9.3 native export of installed 10MHz LPF SK.TSC; only primitive templates retained",
+  "components": [
+    {
+      "name": "ground",
+      "id": "T_037A4C8020070125022416",
+      "type_id": "2",
+      "parameters": []
+    },
+    {
+      "name": "resistor",
+      "id": "T_0379E9B820070125022416",
+      "type_id": "9",
+      "parameters": [
+        {
+          "idx": "0",
+          "value": "3.57k"
+        },
+        {
+          "idx": "1",
+          "value": "1"
+        },
+        {
+          "idx": "2",
+          "value": "相对"
+        },
+        {
+          "idx": "3",
+          "value": "0"
+        },
+        {
+          "idx": "4",
+          "value": "0"
+        },
+        {
+          "idx": "5",
+          "value": "0"
+        },
+        {
+          "idx": "6",
+          "value": "0"
+        },
+        {
+          "idx": "7",
+          "value": "100"
+        },
+        {
+          "idx": "8",
+          "value": "无"
+        }
+      ]
+    },
+    {
+      "name": "battery",
+      "id": "T_0379FEE020070125022416",
+      "type_id": "67",
+      "parameters": [
+        {
+          "idx": "0",
+          "value": "5"
+        },
+        {
+          "idx": "1",
+          "value": "0"
+        },
+        {
+          "idx": "2",
+          "value": "无"
+        },
+        {
+          "idx": "3",
+          "value": "无"
+        }
+      ]
+    },
+    {
+      "name": "voltage_probe",
+      "id": "T_0379FA9820070125022416",
+      "type_id": "4",
+      "parameters": [
+        {
+          "idx": "0",
+          "value": "输出"
+        },
+        {
+          "idx": "1",
+          "value": "No"
+        }
+      ]
+    },
+    {
+      "name": "voltage_generator",
+      "id": "T_0379F66420070125022416",
+      "type_id": "16",
+      "parameters": [
+        {
+          "idx": "0",
+          "value": "2.5"
+        },
+        {
+          "idx": "1",
+          "value": "方波"
+        },
+        {
+          "idx": "2",
+          "value": "0"
+        },
+        {
+          "idx": "3",
+          "value": "输入"
+        },
+        {
+          "idx": "4",
+          "value": "无"
+        }
+      ]
+    },
+    {
+      "name": "capacitor",
+      "id": "T_0379E5B020070125022416",
+      "type_id": "10",
+      "parameters": [
+        {
+          "idx": "0",
+          "value": "27p"
+        },
+        {
+          "idx": "1",
+          "value": "无限"
+        },
+        {
+          "idx": "2",
+          "value": "Value"
+        },
+        {
+          "idx": "3",
+          "value": "相对"
+        },
+        {
+          "idx": "4",
+          "value": "0"
+        },
+        {
+          "idx": "5",
+          "value": "0"
+        },
+        {
+          "idx": "6",
+          "value": "0"
+        },
+        {
+          "idx": "7",
+          "value": "100"
+        },
+        {
+          "idx": "8",
+          "value": "1"
+        },
+        {
+          "idx": "9",
+          "value": "无"
+        }
+      ]
+    },
+    {
+      "name": "inductor",
+      "id": "T_05D98F3C20040918152453",
+      "type_id": "11",
+      "parameters": [
+        {
+          "idx": "0",
+          "value": "50u"
+        },
+        {
+          "idx": "1",
+          "value": "10m"
+        },
+        {
+          "idx": "2",
+          "value": "Value"
+        },
+        {
+          "idx": "3",
+          "value": "相对"
+        },
+        {
+          "idx": "4",
+          "value": "0"
+        },
+        {
+          "idx": "5",
+          "value": "0"
+        },
+        {
+          "idx": "6",
+          "value": "0"
+        },
+        {
+          "idx": "7",
+          "value": "100"
+        },
+        {
+          "idx": "8",
+          "value": "10"
+        },
+        {
+          "idx": "9",
+          "value": "无"
+        }
+      ]
+    }
+  ],
+  "geometry_note": "Coordinates are native schematic units. Tested: resistor at 0 or 90 and capacitor at 90 span 40 units; battery at 0 and voltage_generator at 90 span 40 units downward; ground and voltage_probe connect at position. Other pin geometry remains unverified."
+}
