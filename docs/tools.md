@@ -1,6 +1,6 @@
 # MCP tool reference
 
-The 0.2.1 server exposes 32 tools. This inventory is extracted from its actual definitions.
+The 0.2.2 server exposes 32 tools. This inventory is extracted from its actual definitions.
 Use the live MCP input schema for exact types, defaults and operation unions. The shipped skill and [examples](../plugins/tina-bridge/references/quickstart.md) describe sequencing.
 
 | Tool | Description |

@@ -1,4 +1,4 @@
-# TINA Bridge 0.2.1
+# TINA Bridge 0.2.2
 
 First public release of the native Windows TINA-TI MCP adapter.
 
@@ -33,6 +33,6 @@ The normal Windows protocol checks passed. An initial attempt inside the authori
 
 ## Install
 
-Extract `tina-bridge-0.2.1.zip`, retaining `.agents`, and follow [the installation guide](plugins/tina-bridge/README.md). The archive includes the complete public source and a per-file `package-index.json`. Verify its adjacent SHA-256 file before installation. The same content is available from the Git tag.
+Extract `tina-bridge-0.2.2.zip`, retaining `.agents`, and follow [the installation guide](plugins/tina-bridge/README.md). The archive includes the complete public source and a per-file `package-index.json`. Verify its adjacent SHA-256 file before installation. The same content is available from the Git tag.
 
 This is a GitHub/local-marketplace release; no OpenAI public-directory listing is claimed.

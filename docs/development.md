@@ -44,8 +44,8 @@ Choose a new output directory. This sends real MCP initialize/list/read-result c
 ```powershell
 py -3.13 .\scripts\build_release.py --output .\dist
 py -3.13 .\scripts\build_release.py --output .\build\reproduction
-Get-FileHash .\dist\tina-bridge-0.2.1.zip
-Get-FileHash .\build\reproduction\tina-bridge-0.2.1.zip
+Get-FileHash .\dist\tina-bridge-0.2.2.zip
+Get-FileHash .\build\reproduction\tina-bridge-0.2.2.zip
 ```
 
 The builder reads only `release-files.txt`; it never walks user data or copies an environment. The archive is UTF-8 text with stable file order, fixed ZIP timestamps/permissions and no workstation paths. It includes `package-index.json` with a SHA-256 and byte count for every listed file. Adjacent `.sha256` and `release-manifest.json` files describe the ZIP.

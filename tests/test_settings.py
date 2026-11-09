@@ -11,7 +11,7 @@ import settings
 class SettingsTests(unittest.TestCase):
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory();self.addCleanup(self.temp.cleanup)
-        self.root=Path(self.temp.name)
+        self.root=Path(self.temp.name).resolve()
         self.exe=self.root/'tina.exe';self.exe.write_bytes(b'fixture only')
         self.config=self.root/'settings.json'
         self.config.write_text(json.dumps({'tina_exe':'tina.exe','workspace':'runs','monitor':'unchanged'}),encoding='utf-8')
